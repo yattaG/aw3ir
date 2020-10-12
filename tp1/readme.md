@@ -85,6 +85,7 @@ Référence technique <a href="https://www.w3schools.com/">w3schools.com</>
 ```
 
 * Écrivez vos règles CSS pour customiser le design de votre CV.
+    * Liste des regles CSS utilisables pour un tableau https://www.w3schools.com/css/css_table.asp
     * Exemple simple : 
         *    ```<body>``` avec un background-color gris 
         *    les tableaux ```<table>``` avec un background-color blanc
