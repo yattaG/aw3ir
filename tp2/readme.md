@@ -79,10 +79,12 @@ Le formulaire permettra de saisir les informations suivantes :
         ` document.getElementById("nom").value ` ou ` document.querySelector("#nom").value `
         
      3. pour connaître la taille d’une chaine de caractère
-        "ma chaine de caratère"**.length** ou ` document.getElementById("nom").value.length `
+        "ma chaine de caratère"**.length** 
+	ou 
+	`document.getElementById("nom").value.length`
 
      4. Si il y un champ vide, afficher un message dans la DIV “error”
-       ` document.getElementById("error").innerHTML = "La saisie du nom est obligatoire"; `
+       `document.getElementById("error").innerHTML = "La saisie du nom est obligatoire";`
         
      5. Si tous les champs sont bien remplis : afficher un message dans la DIV “resultat”
-       ` document.getElementById("resultat").innerHTML = "Bienvenue " + document.querySelector("#nom").value; `
+       `document.getElementById("resultat").innerHTML = "Bienvenue " + document.querySelector("#nom").value;`
