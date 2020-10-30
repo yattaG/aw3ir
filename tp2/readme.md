@@ -1,14 +1,13 @@
 TP2
 ![Logo galille](https://github.com/bilelz/tpaw/blob/master/galilee.png?raw=true)
 
-Master 3IR | <a href="https://master3ir2020.slack.com/messages/aw">master3ir2020.slack.com</a>
+Master 3IR
 TP AW #2 : HTML & Javascript
 
 Validation de formulaire en JavaScript.
 
 Support technique : http://www.w3schools.com/js/default.asp
 
-Master 3IR | <a href="https://master3ir2020.slack.com/messages/aw">master3ir2020.slack.com</a>
 TP AW #2 : HTML & Javascript
 
 # 1. Validation de formulaire en JavaScript.
