@@ -179,7 +179,7 @@ Modal quand tous les champs sont OK
    4. L'image devra être entouré par un lien hypertexte vers Google Mapas: http://maps.google.com/maps?q=Paris
 
 
-## 6. Ajout d’un calendrier jQueryUI
+## 6. Ajout d’un calendrier jQueryUI (Bonus)
 
 ![Texte alternatif](image2.png "texte pour le titre, facultatif")   
    1. Mettre en place le  plug-in Datepicker de JqueryUI disponible ici : http://jqueryui.com/datepicker/
