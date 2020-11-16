@@ -176,6 +176,14 @@ Modal quand un champ est vide
 Modal quand tous les champs sont OK
 
    3. Pour l'image voir documentation vers Google Static Maps API https://developers.google.com/maps/documentation/static-maps/
+     * Clé Google Map Image à utiliser
+```AIzaSyAkmvI9DazzG9p77IShsz_Di7-5Qn7zkcg```
+
+Exemple avec une image centrée sur Paris: <a href="https://maps.googleapis.com/maps/api/staticmap?markers=Paris&zoom=14&size=400x300&scale=2&key=AIzaSyAkmvI9DazzG9p77IShsz_Di7-5Qn7zkcg">
+<img src="https://maps.googleapis.com/maps/api/staticmap?markers=Paris&zoom=14&size=400x300&scale=2&key=AIzaSyAkmvI9DazzG9p77IShsz_Di7-5Qn7zkcg" alt='google map' width=200/>
+</a><br/>
+```https://maps.googleapis.com/maps/api/staticmap?markers=Paris&zoom=14&size=400x300&scale=2&key=AIzaSyAkmvI9DazzG9p77IShsz_Di7-5Qn7zkcg```
+
    4. L'image devra être entouré par un lien hypertexte vers Google Mapas: http://maps.google.com/maps?q=Paris
 
 
