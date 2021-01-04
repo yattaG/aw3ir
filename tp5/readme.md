@@ -20,7 +20,7 @@ TP du jour
 
 - [0. Prérequis (⚠ important)](#0-prérequis--important)
 - [1. OpenWeatherMap - générer votre API Key](#1-openweathermap---générer-votre-api-key)
-- [2. Installer NodeJS](#2-installer-nodejs)
+- [2. Installer NodeJS & un serveur web](#2-installer-nodejs&-un-serveur-web)
 - [2.1 Plateforme de dév](#2.1-plateforme-de-dév)
 - [Developpement d'une application web pour connaitre la méteo des villes demandées de l'utilisateur.](#developpement-dune-application-web-pour-connaitre-la-méteo-des-villes-demandées-de-lutilisateur)
 - [3. Initialisation de l'application VUEjs](#3-initialisation-de-lapplication-vuejs)
@@ -58,7 +58,7 @@ TP du jour
     * Analyser la structure de la réponse JSON https://openweathermap.org/current#current_JSON
     * Documentation sur toute l’API : https://openweathermap.org/current
 
-## 2. Installer NodeJS
+## 2. Installer NodeJS & un serveur web
 
 > Node.js nous permet d'utiliser le langage JavaScript sur le serveur... Il nous permet donc de faire du JavaScript en dehors du navigateur !
 
@@ -82,6 +82,17 @@ Avec NPM nous allons charger toutes les librairies dont nous avons besoin : boot
     3.10.10
     ```
 
+* Serveur web
+    * Pour avoir un serveur web en local, installer ce package NPM https://browsersync.io/
+```cmd
+npm install -g browser-sync
+```
+
+  * Pour démarrer le serveur, avec un terminal, positionnez-vous dans votre répertoire et executer la commande
+  ```cmd
+browser-sync
+```
+Browser-sync ouvrira automatiquement la page index.html dans votre nagivateur.
 
 
 ## 2.1 Plateforme de dév
@@ -110,18 +121,6 @@ tp5/
 ```
 
 * index.html à utiliser (avec les imports de scripts et CSS nécessaires) : https://github.com/bilelz/aw3ir/blob/master/tp5/index.html
-
-* Serveur web
-    * pour avoir un serveur web en local, installer ce package NPM https://browsersync.io/
-```cmd
-npm install -g browser-sync
-```
-
-  * Pour démarrer le serveur, avec un terminal, positionnez-vous dans votre répertoire et executer la commande
-  ```cmd
-browser-sync
-```
-Browser-sync ouvrira automatiquement la page index.html dans votre nagivateur.
 
 
 ##  Developpement d'une application web pour connaitre la méteo des villes demandées de l'utilisateur.
