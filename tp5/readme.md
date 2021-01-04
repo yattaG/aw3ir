@@ -62,7 +62,8 @@ TP du jour
 
 * Dans votre répertoire, télécharger bootstrap & vuejs dans les répertoires ```libs``` et ```css``` : 
     * boostrap : https://getbootstrap.com/docs/4.0/getting-started/download/
-    * vuejs : https://cdn.jsdelivr.net/npm/vue (enregistrer le fichier ```vue.js```,  Ctrl+S)
+    * vuejs : https://cdn.jsdelivr.net/npm/vue/dist/vue.js (enregistrer le fichier ```vue.js```,  Ctrl+S)
+        * cette version permet le debuggage via l’extension Chrome https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd
 
 
 Votre répertoire doit ressembler à ça:
