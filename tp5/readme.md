@@ -20,7 +20,8 @@ TP du jour
 
 - [0. Prérequis (⚠ important)](#0-prérequis--important)
 - [1. OpenWeatherMap - générer votre API Key](#1-openweathermap---générer-votre-api-key)
-- [2. Plateforme de dév](#2-plateforme-de-dév)
+- [2. Installer NodeJS](#2-installer-nodejs)
+- [2.1 Plateforme de dév](#2.1-plateforme-de-dév)
 - [Developpement d'une application web pour connaitre la méteo des villes demandées de l'utilisateur.](#developpement-dune-application-web-pour-connaitre-la-méteo-des-villes-demandées-de-lutilisateur)
 - [3. Initialisation de l'application VUEjs](#3-initialisation-de-lapplication-vuejs)
 - [4. (index.html) Créer un formulaire pour saisir le nom d'une ville](#4-indexhtml-créer-un-formulaire-pour-saisir-le-nom-dune-ville)
@@ -57,8 +58,34 @@ TP du jour
     * Analyser la structure de la réponse JSON https://openweathermap.org/current#current_JSON
     * Documentation sur toute l’API : https://openweathermap.org/current
 
+## 2. Installer NodeJS
 
-## 2. Plateforme de dév
+> Node.js nous permet d'utiliser le langage JavaScript sur le serveur... Il nous permet donc de faire du JavaScript en dehors du navigateur !
+
+> Plus de détail : https://openclassrooms.com/courses/des-applications-ultra-rapides-avec-node-js/node-js-mais-a-quoi-ca-sert
+
+
+Dans notre TP, nous utiliserons seulement le gestionnaire de dépendance [NPM](https://openclassrooms.com/courses/des-applications-ultra-rapides-avec-node-js/les-modules-node-js-et-npm#/id/r-1057300) (Node Package Manager).
+Avec NPM nous allons charger toutes les librairies dont nous avons besoin : bootstrap, ...
+
+* Installer Nodejs (version LTS - Long Time Support): https://nodejs.org/en/download/
+    * Cliquer sur Windows Installer ou Macintosh Installer
+
+* Vérifier si Nodejs est installé sur votre poste:
+    * lancer un terminal (invite de commandes), puis lancer la commande
+    ```cmd
+    npm -v
+    ```
+    * Si nodejs est installé, le terminal vous affichera la version de celui-ci
+    ```cmd
+    npm -v
+    3.10.10
+    ```
+
+
+
+## 2.1 Plateforme de dév
+
 
 * Dans votre répertoire, télécharger bootstrap & vuejs dans les répertoires ```libs``` et ```css``` : 
     * boostrap : https://getbootstrap.com/docs/4.0/getting-started/download/
@@ -84,6 +111,17 @@ tp5/
 
 * index.html à utiliser (avec les imports de scripts et CSS nécessaires) : https://github.com/bilelz/aw3ir/blob/master/tp5/index.html
 
+* Serveur web
+    * pour avoir un serveur web en local, installer ce package NPM https://browsersync.io/
+```cmd
+npm install -g browser-sync
+```
+
+  * Pour démarrer le serveur, avec un terminal, positionnez-vous dans votre répertoire et executer la commande
+  ```cmd
+browser-sync
+```
+Browser-sync ouvrira automatiquement la page index.html dans votre nagivateur.
 
 
 ##  Developpement d'une application web pour connaitre la méteo des villes demandées de l'utilisateur.
