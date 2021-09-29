@@ -6,3 +6,8 @@
  Master² 3IR | <a href="https://master3ir2021.slack.com/messages/aw">master3ir2021.slack.com</a>
 
 # Template Github pour vos TP WEB
+
+  
+  Page d'index des pages web https://[VOTRE_PSEUDO_GITHUB].github.io/aw3ir/
+  
+  Exemple : https://bilelz.github.io/aw3ir/
