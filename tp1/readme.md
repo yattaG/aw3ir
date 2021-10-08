@@ -2,8 +2,6 @@
   <a href="https://galilee.univ-paris13.fr/master/master-ingenierie-innovation-images-reseaux-m3ir/">
      <img src="../galilee.png?raw=true" alt="Logo Master" width=100/>
   </a>  
-  <br/>
- Master² 3IR | <a href="https://master3ir2021.slack.com/messages/aw">master3ir20201.slack.com</a>
 
 
 <p align="center">
