@@ -7,6 +7,8 @@
 
 # Template Github pour vos TP WEB
 
+
+  Documentation pour configurer votre compte Github : [/configurer_github/readme.md](/configurer_github/readme.md)
   
   Page d'index des pages web https://[VOTRE_PSEUDO_GITHUB].github.io/aw3ir/
   
