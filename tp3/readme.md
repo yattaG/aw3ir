@@ -1,11 +1,11 @@
-<p align="center">
-  <a href="https://master3ir2020.slack.com/messages/aw">
-     <img src="https://github.com/bilelz/tpaw/blob/master/galilee.png?raw=true" alt="Logo Master" width=100/>
-  </a>  
+<div align="center">
+      <img src="https://github.com/bilelz/tpaw/blob/master/galilee.png?raw=true" alt="Logo Master" width=100/>
   <br/>
-  Master 3IR² | <a href="https://master3ir2020.slack.com/messages/aw">master3ir2020.slack.com</a>
-<h3 align="center">TP AW #3 : Bootstrap & jQuery</h3>
-</p>
+  Master 3IR²</div>
+
+  
+<h3 align="center">TP AW #3 : Bootstrap</h3>
+
 
 ### Prérequis (⚠️ important)
 
