@@ -154,8 +154,7 @@ On pourra la cibler en CSS et JS, grâce à un selecteur
         id="name"
         onkeypress="calcNbChar(this.id)"
       />
-      <span></span>
-      <!-- balise mise à jour dynamiquement en JS -->
+      <span></span> <!-- balise mise à jour dynamiquement en JS -->
     </div>
   </div>
 </form>
