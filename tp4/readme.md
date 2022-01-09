@@ -143,6 +143,8 @@ Le nombre de caractère sera affiché dans une balise `span` que l'on positionne
 On pourra la cibler en CSS et JS, grâce à un selecteur
 **combinateur de voisin direct** (https://developer.mozilla.org/fr/docs/Web/CSS/Adjacent_sibling_combinator)
 
+
+<div  align="center">Extrait de code HTML</div>
 ```html
 <form>
   <div class="row mb-3">
@@ -155,15 +157,14 @@ On pourra la cibler en CSS et JS, grâce à un selecteur
 </form>
 ```
 
-<div  align="center">Extrait de code HTML</div>
 
+
+<div  align="center">Extrait de code JS</div>
 ```js
 function calcNbChar(id) {
   document.querySelector(`#${id} + span`).textContent = document.querySelector(`#${id}`).value.length;
 }
 ```
-
-<div  align="center">Extrait de code JS</div>
 
 <!---
 ## 5. Stockage du formulaire dans le LocalStorage du navigateur
