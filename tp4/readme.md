@@ -145,6 +145,7 @@ On pourra la cibler en CSS et JS, grâce à un selecteur
 
 
 <div  align="center">Extrait de code HTML</div>
+
 ```html
 <form>
   <div class="row mb-3">
@@ -160,6 +161,7 @@ On pourra la cibler en CSS et JS, grâce à un selecteur
 
 
 <div  align="center">Extrait de code JS</div>
+
 ```js
 function calcNbChar(id) {
   document.querySelector(`#${id} + span`).textContent = document.querySelector(`#${id}`).value.length;
