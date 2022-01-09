@@ -148,29 +148,22 @@ On pourra la cibler en CSS et JS, grâce à un selecteur
   <div class="row mb-3">
     <label for="name" class="col-sm-2 col-form-label">Nom</label>
     <div class="col-sm-10">
-      <input
-        type="text"
-        class="form-control"
-        id="name"
-        onkeypress="calcNbChar(this.id)"
-      />
+      <input type="text" class="form-control" id="name" onkeypress="calcNbChar(this.id)" />
       <span></span> <!-- balise mise à jour dynamiquement en JS -->
     </div>
   </div>
 </form>
 ```
 
-<center>Extrait de code HTML</center>
+<div  align="center">Extrait de code HTML</div>
 
 ```js
 function calcNbChar(id) {
-  document.querySelector(`#${id} + span`).textContent = document.querySelector(
-    `#${id}`
-  ).value.length;
+  document.querySelector(`#${id} + span`).textContent = document.querySelector(`#${id}`).value.length;
 }
 ```
 
-<center>Extrait de code JS</center>
+<div  align="center">Extrait de code JS</div>
 
 <!---
 ## 5. Stockage du formulaire dans le LocalStorage du navigateur
