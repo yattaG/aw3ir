@@ -193,7 +193,7 @@ var prenom = localStorage.getItem("lastname");
 
 ## 5. ajouter le contact à un tableau JSON (store.js)
 
-1. créer un fichier **\*store.js**
+1. créer un fichier **store.js**
 
    - Ce script stockera le contact dans une liste JSON
    - Les méthodes disponibles seront:
