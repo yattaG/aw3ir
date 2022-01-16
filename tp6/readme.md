@@ -787,7 +787,12 @@ ng build --base-href /aw3ir/tp6/meteo-angular/build/ --output-path build
 Cela va créer votre projet compilé dans le répertoire ```tp6/meteo-angular/build/```. 
 Ce répertoire est prêt à étre mis sur un serveur web (github pages par exemple).
 
-💡 **C'est donc le contenu de ce dossier "dist" qu'il faut mettre sur votre page Github**
+💡 **C'est donc le contenu de ce dossier "build" qu'il faudra aussi pousser mettre sur votre dépôt Github**
+
+L'URL à partager avec le professeur sera : 
+```
+https://[votre_pseudo_github]].github.io/aw3ir/tp6/meteo-angular/build/index.html
+```
 
 ```ng build``` va optimiser le code et :
 * compiler le code TypeScript en Javascript
