@@ -144,11 +144,11 @@ Cela va vous créer donc le projet avec cette arborescence :
 ```
 tp6/
 ├── meteo-angular/
-│   ├── .angular-cli.json // configuration d'angular-cli pour le projet
+│   ├── .angular.json // configuration d'angular pour le projet
 │   ├── .editorconfig
 │   ├── .gitignore      // liste des fichiers ignorés par GIT
-│   ├── karma.conf.js   // Test de l'applcation
-│   ├── package.json    // liste les modules à charger avec NPM
+│   ├── karma.conf.js   // Tests unitaires de l'applcation
+│   ├── package.json    // liste les dépendences à charger avec NPM
 │   ├── protractor.conf.js
 │   ├── README.md       // Documentation du projet (c'est ce format de fichier qui utilisé pour l'intitulé de vos TP AW)
 │   ├── tsconfig.json   // configuration du compilateur TypeScript vers Javascript
