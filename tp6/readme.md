@@ -155,7 +155,7 @@ tp6/
 │   ├── tslint.json     // configuration de l'assistant pour respecter les conventions de codage
 │   │
 │   └── e2e/
-│   └── node_modules/
+│   └── node_modules/   // répertoire ou toutes les dépendances sous téléchargées (⚠à ne surtout pas pousser sur git⚠)
 │   └── src/
 │   │    └── app/                   // Le code à modifier pour votre projet
 │            ├── app.component.css
