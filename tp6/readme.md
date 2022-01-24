@@ -309,13 +309,14 @@ Pour que ce component soit affiché sur la page web, il faut l'ajouter à l'él�
 
 ## 4.2. Fomulaire : ajout du module FormModule
 
-Pour utiliser des formulaires avec Anguler il fait référencer le module ```FormModule```.
+Pour utiliser des formulaires avec Anguler il fait référencer les module ```FormModule, ReactiveFormsModule```.
 
 Dans le fichier ```src\app\app.module.ts``` ajouter le ainsi:
 
 ```ts
 // debut du fichier
-import { FormsModule } from '@angular/forms'; // <--  Ajouter la référence ici
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+ // <--  Ajouter les références ici
 
 import { AppComponent } from './app.component';
 import { MeteoComponent } from './meteo/meteo.component';
@@ -327,7 +328,7 @@ import { MeteoComponent } from './meteo/meteo.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule //<-- Ajouter la référence ici aussi
+    FormsModule, ReactiveFormsModule //<-- Ajouter les références ici aussi
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -411,12 +412,13 @@ export class MeteoComponent implements OnInit {
     weather: null
   };
 
-  cityList: any;
+  cityList: MeteoItem[] = [];
+
   constructor() { }
 
   ngOnInit() {
-    if( localStorage.cityList !== undefined){
-      this.cityList = JSON.parse(localStorage.cityList);
+    if( localStorage['cityList'] !== undefined){
+      this.cityList = JSON.parse(localStorage['cityList']);
     }else{
       this.cityList = [];
     }
@@ -442,7 +444,7 @@ export class MeteoComponent implements OnInit {
 
   }
 
-  remove(_city) {
+  remove(_city: any) {
     // on utilise 'filter' pour retourne une liste avec tous les items ayant un nom différent de _city.name
     this.cityList = this.cityList.filter(item =>
       item.name != _city.name
@@ -464,7 +466,7 @@ export class MeteoComponent implements OnInit {
   }
 
   saveCityList(){
-    localStorage.cityList = JSON.stringify(this.cityList);
+    localStorage['cityList'] = JSON.stringify(this.cityList);
   }
 
 }
