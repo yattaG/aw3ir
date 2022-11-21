@@ -80,7 +80,7 @@ var myModal = new bootstrap.Modal(document.getElementById('myModal'));
       document.querySelector(".modal-title").innerHTML = "Bienvenue " + document.getElementById("fname").value;
       document.querySelector(".modal-body").innerHTML = "Vous etes né le " + document.getElementById("birth").value + " et vous habitez à";
       document.querySelector(".modal-map").innerHTML;
-      document.querySelector(".modal-adresse").innerHTML = " " +document.getElementById("address").value;
+      document.querySelector(".modal-adresse").innerHTML = '<a href="https://maps.google.com/maps?q=' + a +'">Vous habitez à '+ a + ' </a>';
       myModal.show();
    }
 
