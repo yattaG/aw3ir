@@ -77,34 +77,29 @@ var myModal = new bootstrap.Modal(document.getElementById('myModal'));
         myModal.show();
         return false;
       }
-      document.querySelector(".modal-title").innerHTML = "Bienvenue " + document.getElementById("fname").value;
-      document.querySelector(".modal-body").innerHTML = "Vous etes né le " + document.getElementById("birth").value + " et vous habitez à";
-      document.querySelector(".modal-map").innerHTML;
-      document.querySelector(".modal-adresse").innerHTML = " " +document.getElementById("address").value;
-      myModal.show();
 
+      contactStore.add(l, f, d, a, e);
+      contactList=contactStore.getList();
+      document.querySelector("table tbody").innerHTML = ""
 
-contactStore.add(l, f, d, a, e);
-contactList=contactStore.getList();
-document.querySelector("table tbody").innerHTML = ""
-
-for (var index in contactList) {
-    document.querySelector("table tbody").innerHTML =
-    document.querySelector("table tbody").innerHTML +
-    "<tr><td>" +
-    contactList[index].name +
-    "</td><td>" +
-    contactList[index].firstname +
-    "</td><td>" +
-    contactList[index].date +
-    "</td><td>"+
-    contactList[index].adress +
-    "</td><td>"+
-    contactList[index].mail +
-    "</td><td>"
-  }
-  document.querySelector("form").reset();
-}
+      for (var index in contactList) {
+          document.querySelector("table tbody").innerHTML =
+          document.querySelector("table tbody").innerHTML +
+          "<tr><td>" +
+          contactList[index].name +
+          "</td><td>" +
+          contactList[index].firstname +
+          "</td><td>" +
+          contactList[index].date +
+          "</td><td>"+
+          contactList[index].adress +
+          "</td><td>"+
+          contactList[index].mail +
+          "</td><td>"
+        }
+        document.querySelector("form").reset();
+      }
+      
 
      function validateEmail(email) {
         const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
