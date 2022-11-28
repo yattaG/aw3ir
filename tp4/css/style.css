@@ -5,3 +5,9 @@
     margin: 0 auto;
     max-width: 800px;              
 }
+#gps{
+    background-color: darkgoldenrod;
+    border-color: darkgoldenrod;
+    border-radius: 5px;
+  
+}
