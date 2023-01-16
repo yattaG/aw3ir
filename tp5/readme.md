@@ -387,7 +387,7 @@ meteo : function (_city){
                 app.message = null;
             }else{
                 app.cityWeather = null;
-                app.message = 'Météo introuvable pour ' + _city.name 
+                app.message = 'Météo introuvable pour ' + _city.name
                                 + ' (' + json.message+ ')';
             }        
         });        
